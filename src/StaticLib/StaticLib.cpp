@@ -28,22 +28,4 @@ bool bubble_sort(item* begin, const item* end)
 	}
 	else if (begin < end) return false;
 	else return false;
-
-	/*if (begin->key < end->key)
-	{
-		for (int i = 0; i < n; i++)
-		{
-			for (int j = i + 1; j < n; j++)
-			{
-				if (begin[i].key > begin[j].key)
-				{
-					int tnp = begin[i].key;
-					begin[i].key = begin[j].key;
-					begin[j].key = tnp;
-				}
-			}
-		}
-		return true;
-	}*/
-	//else return false;
 }

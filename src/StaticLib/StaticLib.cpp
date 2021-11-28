@@ -7,4 +7,15 @@
 bool bubble_sort(item* begin, const item* end)
 {
 	return false;
+	
+	//if (begin != null)
+	//{
+	//	printf("aaa");
+	//}
+	//
+
+	if (begin > end)
+	{
+		return true;
+	}
 }

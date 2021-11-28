@@ -1,0 +1,11 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\src",
+    "\\src\\include",
+    "\\src\\StaticLib",
+    "\\src\\UnitTest"
+  ],
+  "SelectedNode": "\\src\\include\\lib_func.h",
+  "PreviewInSolutionExplorer": false
+}

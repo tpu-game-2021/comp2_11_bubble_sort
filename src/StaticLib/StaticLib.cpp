@@ -6,5 +6,23 @@
 // バブルソート(引数が不適切であればfalseを返す)
 bool bubble_sort(item* begin, const item* end)
 {
-	return false;
+	item keep;
+	for (int i = 0; i < 4; i++)
+	{
+		if (begin->key < end->key)
+		{
+			return true;
+		}
+		else if (end->key < begin->key)
+		{
+			item keep = end->value[i];
+			end->value[i] = begin->value[i];
+			begin->value = keep;
+			return false;
+		}
+		else
+		{
+			return false;
+		}
+	}
 }
